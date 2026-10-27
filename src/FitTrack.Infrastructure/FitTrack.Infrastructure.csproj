@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net8.0</TargetFramework></PropertyGroup><ItemGroup>
+<ProjectReference Include="../FitTrack.Domain/FitTrack.Domain.csproj" /><ProjectReference Include="../FitTrack.Application/FitTrack.Application.csproj" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11"><PrivateAssets>all</PrivateAssets></PackageReference>
+<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+</ItemGroup></Project>
